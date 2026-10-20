@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Burrow</title>
+<link rel="icon" href="icon.png">
+<style>
+:root { --bg: #F4EDE4; --text: #2B221C; --heading: #2B221C; --muted: #6B5F56; --accent: #A04A2B; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #1B1613; --text: #F0E7DC; --heading: #F0E7DC; --muted: #AB9D91; --accent: #E39A76; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+h1 { font: 700 40px/1.1 Georgia, "Times New Roman", serif; color: var(--heading); margin: 0 0 16px; }
+h2 { font-size: 22px; color: var(--heading); margin: 36px 0 8px; }
+p, li { color: var(--muted); }
+strong { color: var(--text); }
+a { color: var(--accent); word-break: break-word; }
+li { margin: .25rem 0; }
+table { border-collapse: collapse; width: 100%; }
+td, th { text-align: left; vertical-align: top; padding: 8px 8px 8px 0; border-bottom: 1px solid rgba(127,127,127,.25); color: var(--muted); }
+th { color: var(--text); }
+footer { margin-top: 48px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<h1>Burrow Privacy Policy</h1>
+<ul>
+<li><strong>Effective date:</strong> 21 October 2026</li>
+<li><strong>Developer:</strong> Apollo Innovation</li>
+<li><strong>Contact:</strong> <a href="mailto:innovationapollo@gmail.com">innovationapollo@gmail.com</a></li>
+</ul>
+<p><strong>Short version: Burrow collects nothing. Your photos never leave your phone.</strong></p>
+
+<h2>1. What we collect</h2>
+<p>Nothing. Burrow has no account, sign-up or login. It has no analytics, tracking or advertising SDKs and no crash reporting, and we run no servers for the app. If crash reporting is ever added, it will be opt-in and off by default, and this policy will be updated first.</p>
+
+<h2>2. Network</h2>
+<p>Burrow doesn't request internet access and makes no network connections. The Android app declares no internet permission.</p>
+
+<h2>3. What stays on your phone</h2>
+<ul>
+<li><strong>Photos, videos and files you add</strong>, with their names, dates and the list of items. All of it is encrypted on your phone with AES-256, using keys tied to your phone's security hardware. Vault data is excluded from iCloud and Google backups and from device-to-device transfer.</li>
+<li><strong>A few app settings</strong> in the system's secure storage: a random salt, encryption parameters, a failed-attempt counter, whether you're an early user, and whether you prefer tapping dots to drawing your pattern. None of these name or count your vaults.</li>
+<li><strong>Per-vault settings</strong> (auto-lock, and the counters behind the occasional rating prompt) are stored inside that vault's encryption.</li>
+</ul>
+<p>Uninstalling the app deletes everything. If you forget your pattern and lose your recovery phrase, nobody can open the vault, including us.</p>
+
+<h2>4. Permissions</h2>
+<table>
+<tr><th>Permission</th><th>Why</th></tr>
+<tr><td>Photos</td><td>To show your gallery so you can choose items to move into the vault, to delete the originals if you ask, and to save a copy back when you choose Export.</td></tr>
+<tr><td>Camera and microphone</td><td>For the in-vault camera. Photos and videos go straight into the encrypted vault, never your gallery.</td></tr>
+<tr><td>Files you pick</td><td>Read in place to add them to the vault. Burrow doesn't keep a copy anywhere else.</td></tr>
+</table>
+
+<h2>5. Sharing and exporting</h2>
+<p>If you choose <em>Save to gallery</em> or <em>Share a copy</em>, Burrow first warns you, then hands an unencrypted copy to your gallery or to the app you pick. That copy is then governed by that app or service, not by Burrow.</p>
+
+<h2>6. Ratings prompt</h2>
+<p>At most once every 90 days, and only after you've used a vault on 3 different days and it holds 10 or more items, Burrow asks your phone to show the standard App Store or Google Play rating prompt. Your phone handles the prompt. Burrow sends nothing.</p>
+
+<h2>7. This website</h2>
+<p>This page is served by GitHub Pages. Like any web host, GitHub may log technical data such as your IP address and browser type when you visit, under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. The Burrow app itself never contacts this website or any other server.</p>
+
+<h2>8. Children</h2>
+<p>Burrow doesn't knowingly collect data from anyone, including children, because it collects no data.</p>
+
+<h2>9. Changes</h2>
+<p>If this policy changes, we'll update this page and the effective date. Paying for Burrow Pro, once it launches, goes through the App Store or Google Play; Burrow itself never sees your payment details.</p>
+
+<footer>© Apollo Innovation · <a href="index.html">Burrow</a> · <a href="mailto:innovationapollo@gmail.com">innovationapollo@gmail.com</a></footer>
+</main>
+</body>
+</html>
